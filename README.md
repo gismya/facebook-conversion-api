@@ -99,7 +99,7 @@ var defaultClient = FacebookConversionsApiForWeb.ApiClient.instance;
 
 // Configure API key authorization: facebook_api_key
 var facebook_api_key = defaultClient.authentications['facebook_api_key'];
-facebook_api_key.apiKey = "EAASmOn85xSwBAOUW62U1CqhjohDejZBeeyTmZA5ZBbrE0A5ZA9proG4cc5kDuaQeJyAneGHMCwIQZBD0bpuZCg5rXlM9SSr0zZAZBZBPouKWFyZCA7baLV9N6lyenr7jc9DSd3iFZAEIW867gOzcQabMDwW72jZAOmeJZAN6j2CZAQMBgXerj0Q4QZCex21XFfC7ZAcgNg0ZD"
+facebook_api_key.apiKey = ""
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //facebook_api_key.apiKeyPrefix['access_token'] = "Token"
 
@@ -107,7 +107,7 @@ var api = new FacebookConversionsApiForWeb.DefaultApi()
 
 var body = new FacebookConversionsApiForWeb.EventRequest(); // {EventRequest} Facebook Conversions API (for Web) post request
 
-var pixelId = "509005299761081"; // {String} 
+var pixelId = ""; // {String} 
 
 
 var callback = function(error, data, response) {
