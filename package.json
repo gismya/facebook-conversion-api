@@ -1,0 +1,22 @@
+{
+  "name": "facebook_conversions_api__for_web",
+  "version": "1.0.0",
+  "description": "The_Conversions_API__for_web_allows_advertisers_to_send_web_events_from_their_servers_directly_to_Facebook__Conversions_API_events_are_linked_to_a_pixel_and_are_processed_like_browser_pixel_events__This_means_that_these_conversion_events_are_used_in_measurement_reporting_and_optimization_in_the_same_way_as_browser_pixel_events_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0",
+    "querystring": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
